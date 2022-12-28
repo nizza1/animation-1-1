@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 20vw;
+    height: 10vh;
+    background-color:red;
+    border: 1px solid black ;
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+div:hover {
+    transform: scaleX(700%);
+
+}
